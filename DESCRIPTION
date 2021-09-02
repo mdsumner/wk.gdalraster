@@ -1,0 +1,19 @@
+Package: wk.gdalraster
+Title: Read Raster Data with a Grid Specification by the 'wk' Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Michael D.",
+           family = "Sumner",
+           role = c("aut", "cre"),
+           email = "mdsumner@gmail.com")
+Description: Read raster data with GDAL, using a grid specification from the wk package. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    vapour (>= 0.8.0),
+    wk (>= 0.5.0.9000)
+Remotes: paleolimbot/wk@dev-grid, hypertidy/vapour@out
